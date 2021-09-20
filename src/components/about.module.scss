@@ -1,0 +1,49 @@
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1280px;
+    margin: 0px 311.500px;
+    padding: 50px 0;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    width: inher;
+    font-family: arpona, serif;
+    color: #FFFAFF;
+}
+
+.profile {
+    display: flex;
+    margin: 0 60px;
+    max-width: 35%;
+    background-color: #e7c6ff;
+    border-radius: 10px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 1280px;
+    margin: 0px 311.500px;
+}
+
+.imgRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: inherit;
+    margin-bottom: 50px;
+}
+
+.skillIcon {
+    width: 200px;
+    height: 200px;
+    object-fit: scale-down;
+    margin-bottom: 0;
+}

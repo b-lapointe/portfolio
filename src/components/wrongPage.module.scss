@@ -1,0 +1,89 @@
+.color {
+    margin-top: 60px;
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+.error {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-family: arpona, serif;
+    height: 800px;
+    width: 1280px;
+    margin: 0 311.500px;
+    padding: 50px 0;
+}
+
+.gifGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.four {
+    position: absolute;
+    font-family: hwt-aetna,serif;
+    font-size: 250px;
+    color: rgba(255, 250, 255, 0.25);
+    margin-bottom: 35px;
+}
+
+.gif {
+    margin-top: 30px;
+    height: 400px;
+}
+
+.text {
+    font-family: arpona, serif;
+    font-size: 32px;
+    color: #FFFAFF;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.buttons a:hover {
+    background-color: #BC1A2F;
+    cursor: pointer;
+}
+
+.buttons:hover .option1 {
+    position: relative;
+}
+
+.buttons:hover .option2 {
+    visibility: visible;
+}
+
+.option1 {
+    background-color: #E01E37;
+    border: none;
+    border-radius: 30px;
+    margin: 0 20px;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #FFFAFF;
+    width: fit-content;
+    position: absolute;
+}
+
+.option2 {
+    visibility: hidden;
+    background-color: #E01E37;
+    border: none;
+    border-radius: 30px;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #FFFAFF;
+    width: fit-content;
+}
+

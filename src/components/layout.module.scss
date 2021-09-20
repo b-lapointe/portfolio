@@ -1,0 +1,71 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+
+.content {
+    flex-grow: 1; //alows container to grow as needed leaving just enough room for footer
+    background-image: -webkit-gradient();
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: arpona, serif;
+    margin: 0px 311.500px;
+    padding: 24px 0;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: arpona, serif;
+    padding: 10px 311.500px;
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+.heroColor {
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+.titleBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.55);
+    margin-top: 50px;
+
+    img {
+        margin-bottom: 0;
+    }
+}
+
+.title {
+    font-family: arpona, serif;
+    font-size: 56px;
+    color: #FFFAFF;
+    margin: 20px 0;
+}
+
+.button {
+    background-color: #E01E37;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #FFFAFF;
+    width: fit-content;
+}
+
+.button:hover {
+    background-color: #BC1A2F;
+    cursor: pointer;
+}
