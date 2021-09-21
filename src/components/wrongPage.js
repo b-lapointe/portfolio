@@ -1,7 +1,7 @@
 import React from 'react'
 
 import * as errorStyles from './wrongPage.module.scss'
-import nothing from './nothing.gif'
+import nothing from '../assets/nothing.gif'
 
 const Error = () => {
     return (

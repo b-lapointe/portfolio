@@ -5,12 +5,12 @@ import * as layoutStyles from './layout.module.scss'
 import * as projectsStyles from './projects.module.scss'
 
 //import * as heroStyles from './hero.module.scss'
-import memeGenPage2 from './memeGenPage2.jpeg'
-import jokePage from './jokePage.png'
-import formPage from './formPage.png'
-import todoPage from './todoPage.png'
-import contactPage from './contactPage.png'
-import schoolPage from './schoolPage.png'
+import memeGenPage2 from '../assets/memeGenPage2.jpeg'
+import jokePage from '../assets/jokePage.png'
+import formPage from '../assets/formPage.png'
+import todoPage from '../assets/todoPage.png'
+import contactPage from '../assets/contactPage.png'
+import schoolPage from '../assets/schoolPage.png'
 
 
 const Projects = () => {

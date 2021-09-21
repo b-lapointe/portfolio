@@ -4,7 +4,7 @@ import scrollTo from 'gatsby-plugin-smoothscroll'
 
 import * as layoutStyles from './layout.module.scss'
 import * as heroStyles from './hero.module.scss'
-import onLaptop from './onLaptop.png'
+import onLaptop from '../assets/onLaptop.png'
 
 const Hero = () => {
     return (
