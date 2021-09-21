@@ -26,8 +26,8 @@ const Projects = () => {
                         <div className={projectsStyles.overlay}>
                             <h2 className={projectsStyles.appName}>Meme Generator App</h2>
                             <div className={projectsStyles.btns}>
-                                <a className={layoutStyles.button} href='/memeGen' target="_blank">Try It</a>
-                                <button className={layoutStyles.button}>Code It</button>
+                                <a className={layoutStyles.button} href='/memeGen' target="_blank" rel="noreferrer">Try It</a>
+                                <a className={layoutStyles.button} href='https://github.com/b-lapointe/portfolio/tree/master/src/projects/meme-generator-app' target="_blank" rel="noreferrer">Code It</a>
                             </div>
                         </div>
                     </div>
@@ -36,8 +36,8 @@ const Projects = () => {
                         <div className={projectsStyles.overlay}>
                             <h2 className={projectsStyles.appName}>Forms App</h2>
                             <div className={projectsStyles.btns}>
-                                <a className={layoutStyles.button} href='/forms' target="_blank">Try It</a>
-                                <button className={layoutStyles.button}>Code It</button>
+                                <a className={layoutStyles.button} href='/forms' target="_blank" rel="noreferrer">Try It</a>
+                                <a className={layoutStyles.button} href='https://github.com/b-lapointe/portfolio/tree/master/src/projects/forms-app' target="_blank" rel="noreferrer">Code It</a>
                             </div>
                         </div>
                     </div>
@@ -46,8 +46,8 @@ const Projects = () => {
                         <div className={projectsStyles.overlay}>
                             <h2 className={projectsStyles.appName}>Contact Card App</h2>
                             <div className={projectsStyles.btns}>
-                                <a className={layoutStyles.button} href='/contactCard' target="_blank">Try It</a>
-                                <button className={layoutStyles.button}>Code It</button>
+                                <a className={layoutStyles.button} href='/contactCard' target="_blank" rel="noreferrer">Try It</a>
+                                <a className={layoutStyles.button} href='https://github.com/b-lapointe/portfolio/tree/master/src/projects/contact-card-app' target="_blank" rel="noreferrer">Code It</a>
                             </div>
                         </div>
                     </div>
@@ -59,8 +59,8 @@ const Projects = () => {
                         <div className={projectsStyles.overlay}>
                             <h2 className={projectsStyles.appName}>To-Do App</h2>
                             <div className={projectsStyles.btns}>
-                                <a className={layoutStyles.button} href='/todo' target="_blank">Try It</a>
-                                <button className={layoutStyles.button}>Code It</button>
+                                <a className={layoutStyles.button} href='/todo' target="_blank" rel="noreferrer">Try It</a>
+                                <a className={layoutStyles.button} href='https://github.com/b-lapointe/portfolio/tree/master/src/projects/to-do-app' target="_blank" rel="noreferrer">Code It</a>
                             </div>
                         </div>
                     </div>
@@ -69,8 +69,8 @@ const Projects = () => {
                         <div className={projectsStyles.overlay}>
                             <h2 className={projectsStyles.appName}>Joke App</h2>
                             <div className={projectsStyles.btns}>
-                                <a className={layoutStyles.button} href='/joke' target="_blank">Try It</a>
-                                <button className={layoutStyles.button}>Code It</button>
+                                <a className={layoutStyles.button} href='/joke' target="_blank" rel="noreferrer">Try It</a>
+                                <a className={layoutStyles.button} href='https://github.com/b-lapointe/portfolio/tree/master/src/projects/joke-app' target="_blank" rel="noreferrer">Code It</a>
                             </div>
                         </div>
                     </div>
@@ -79,8 +79,8 @@ const Projects = () => {
                         <div className={projectsStyles.overlay}>
                             <h2 className={projectsStyles.appName}>Product App</h2>
                             <div className={projectsStyles.btns}>
-                                <a className={layoutStyles.button} href='/product' target="_blank">Try It</a>
-                                <button className={layoutStyles.button}>Code It</button>
+                                <a className={layoutStyles.button} href='/product' target="_blank" rel="noreferrer">Try It</a>
+                                <a className={layoutStyles.button} href='https://github.com/b-lapointe/portfolio/tree/master/src/projects/product-app' target="_blank" rel="noreferrer">Code It</a>
                             </div>
                         </div>
                     </div> 
