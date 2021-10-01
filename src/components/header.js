@@ -4,6 +4,7 @@ import scrollTo from 'gatsby-plugin-smoothscroll'
 
 import * as layoutStyles from './layout.module.scss'
 import * as headerStyles from './header.module.scss'
+import Navbar from './menu'
 
 const Header = () => {
     const data = useStaticQuery(graphql`
@@ -22,7 +23,7 @@ const Header = () => {
                 <Link to="/">
                     {data.site.siteMetadata.title}
                 </Link>
-            </h1> 
+            </h1>
             <nav>
                 <ul className={headerStyles.navList}>
                     <li><button onClick={() => scrollTo('#about')} className={headerStyles.navItem}>About</button></li> 
@@ -30,6 +31,7 @@ const Header = () => {
                     <li><button onClick={() => scrollTo('#contact')} className={headerStyles.navItem}>Contact</button></li> 
                 </ul>
             </nav>
+            <Navbar/> 
         </header>
     )
 }

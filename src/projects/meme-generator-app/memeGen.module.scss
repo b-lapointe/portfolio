@@ -10,7 +10,7 @@
 
 .meme {
     position: relative;
-    width: 70%;
+    width: 80%;
     margin: auto;
 }
 
@@ -53,14 +53,15 @@
 }
 
 .memeForm {
-    width: 70%;
+    width: 80%;
     margin: 20px auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .memeForm > input {
-    width: 45%;
+    min-width: 45%;
     height: 40px;
 }
 

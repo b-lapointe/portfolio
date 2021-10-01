@@ -35,13 +35,13 @@
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    margin: 10px 15px;
+    width: 100%;
+    padding: 10px 15px;
 }
 
 .icon {
     height: 22px;
-    width:auto;
-    margin-right: 5px;
+    width: 22px;
     margin-bottom: 0;
 }
 
@@ -58,4 +58,5 @@
 .card p {
     font-size: 15px;
     margin-bottom: 0;
+    margin-left: 10px;
 }

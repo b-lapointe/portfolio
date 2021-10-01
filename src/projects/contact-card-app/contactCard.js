@@ -1,8 +1,8 @@
 import React from "react"
 
 import * as contactCardStyles from "./card.module.scss"
-import phoneIcon from './phone.png'
-import emailIcon from './email.png'
+import * as FaIcons from "react-icons/fa"
+import * as IoIcons from "react-icons/io"
 
 function ContactCard(props) {
     console.log(props)
@@ -11,11 +11,11 @@ function ContactCard(props) {
             <img className={contactCardStyles.profilePic} src={props.contact.imgUrl} alt={"Cat"}/>
             <h3>{props.contact.name}</h3>
             <div className={contactCardStyles.info}>
-                <img className={contactCardStyles.icon} src={phoneIcon} alt={"phone"}/>
+                <FaIcons.FaPhone className={contactCardStyles.icon}/>
                 <p>Phone: {props.contact.phone}</p>
             </div>
             <div className={contactCardStyles.info}>
-                <img className={contactCardStyles.icon} src={emailIcon} alt={"email"}/>
+                <IoIcons.IoIosMail className={contactCardStyles.icon}/>
                 <p>Email: {props.contact.email}</p>
             </div>
         </div>

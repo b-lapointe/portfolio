@@ -18,7 +18,7 @@ import sass from '../assets/sass.png'
 
 const About = () => {
     return (
-        <div id="about">
+        <div id="about" className={aboutStyles.section}>
             <div className={layoutStyles.titleBox}>
                 <h1 className={layoutStyles.title}>About</h1>
             </div>
@@ -30,20 +30,18 @@ const About = () => {
                 </div>
             </div>
             <div className={aboutStyles.skills}>
-                <div className={aboutStyles.imgRow}>
                     <img className={aboutStyles.skillIcon} src={html} alt={"HTML icon"} title="HTML"/>
                     <img className={aboutStyles.skillIcon} src={css} alt={"CSS icon"} title="CSS"/>
                     <img className={aboutStyles.skillIcon} src={javascript2} alt={"JavaScript icon"} title="JavaScript"/>
                     <img className={aboutStyles.skillIcon} src={react} alt={"React icon"} title="React"/>
                     <img className={aboutStyles.skillIcon} src={angular} alt={"Angular icon"} title="Angular"/>
-                </div>
-                <div className={aboutStyles.imgRow}>
+                
+                
                     <img className={aboutStyles.skillIcon} src={sass} alt={"SASS icon"} title="SASS"/>
                     <img className={aboutStyles.skillIcon} src={wordpress} alt={"Wordpress icon"} title="Wordpress"/>
                     <img className={aboutStyles.skillIcon} src={gatsby} alt={"Gatsby icon"} title="Gatsby"/>
                     <img className={aboutStyles.skillIcon} src={adobeIll} alt={"Adobe Illustrator icon"} title="Adobe Illustrator"/>
                     <img className={aboutStyles.skillIcon} src={adobeXD} alt={"Adobe XD icon"} title="Adobe XD"/>
-                </div>
             </div>
         </div>
     )

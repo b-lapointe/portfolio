@@ -37,3 +37,19 @@
     color: #666666;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 768px) {
+    .navList {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .navList {
+        display: none;
+    }
+
+    .title {
+        font-size: 28px;
+    }
+}

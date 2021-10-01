@@ -1,10 +1,8 @@
 import React from 'react'
-//import { Link } from 'gatsby'
 
 import * as layoutStyles from './layout.module.scss'
 import * as projectsStyles from './projects.module.scss'
 
-//import * as heroStyles from './hero.module.scss'
 import memeGenPage2 from '../assets/memeGenPage2.jpeg'
 import jokePage from '../assets/jokePage.png'
 import formPage from '../assets/formPage.png'
@@ -12,10 +10,9 @@ import todoPage from '../assets/todoPage.png'
 import contactPage from '../assets/contactPage.png'
 import schoolPage from '../assets/schoolPage.png'
 
-
 const Projects = () => {
     return (
-        <div id="projects">
+        <div className={projectsStyles.section} id="projects">
             <div className={layoutStyles.titleBox}>
                 <h1 className={layoutStyles.title}>Projects</h1>
             </div>

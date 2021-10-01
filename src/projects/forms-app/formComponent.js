@@ -78,7 +78,7 @@ function FormComponent(props) {
                         name="destination" 
                         onChange={props.handleChange}
                     >
-                        <option value="">-- Please Choose a destination --</option>
+                        <option value="">-- Select Destination --</option>
                         <option value="germany">Germany</option>
                         <option value="norway">Norway</option>
                         <option value="north pole">North Pole</option>

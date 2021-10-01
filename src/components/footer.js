@@ -19,10 +19,9 @@ const Footer = () => {
     return (
         <footer className={layoutStyles.footer}>
             <p className={footerStyles.text}>
-                © Totally copyrighted <span role="img" aria-label="eye roll emoji">🙄</span> 
-                | Created by {data.site.siteMetadata.author} 
-                | 2021 
-                | <a className={footerStyles.button} href='https://github.com/b-lapointe/portfolio' target="_blank" rel="noreferrer"> Check Out My Code </a>
+                © Totally copyrighted<span role="img" aria-label="eye roll emoji"> 🙄 </span> 
+                | Created by {data.site.siteMetadata.author} | 2021 
+                | <a className={footerStyles.button} href='https://github.com/b-lapointe/portfolio' target="_blank" rel="noreferrer"> My Code </a>
                 | <button onClick={() => scrollTo('#home')} className={footerStyles.button}>Back to the Top</button>
             </p>
         </footer>
